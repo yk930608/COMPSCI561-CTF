@@ -6,7 +6,7 @@ Go to page https://docs.docker.com/get-docker/ install docker
 Start your docker
 ### Create Image Via Docker ###
 
-Make sure cd to  the path where you store.
+Make sure ```cd``` to  the path where you store.
 
 run command in your terminal
 
