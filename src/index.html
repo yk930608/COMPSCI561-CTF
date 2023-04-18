@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DeBugCTF</title>
+  </head>
+  <body>
+    <h1>
+      Welcome to CTFs
+    </h1>
+    <script type="text/javascript" src="/func.js"></script>
+    <div class='portNumber'>
+      <form id='nameForm'>
+        <div class='form-uname'>
+            <label id='portNumberLable' for='nameField'>If this web page application is running by Node.js what is the Debug port for Node.js?</label>
+            <input id='portNumberField' type='text' maxlength='25'></input>
+            <button id = 'portNumberButton' type="button" onclick="getPort()">submit!</button>
+        </div>
+        <div class='portTypeLable'>
+          <label id='portTypeLable' for='nameField'>What type of port is the Debug port for Node.js?</label>
+          <input id='portTypeField' type='text' maxlength='25'></input>
+          <button id = 'portTypeButton' type="button" onclick="getPortType()">submit!</button>
+        </div>
+        <div>
+          <button id = 'flagOutput' type="button" onclick="outputFlag()">Flag!</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
