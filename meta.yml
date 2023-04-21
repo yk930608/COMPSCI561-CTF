@@ -1,0 +1,23 @@
+name: Debug CTF
+description: |
+
+  This is a challenge is design to challenge your "Debug" skills and Node.js knowledge.
+  **Connection Instructions**:
+
+  Do the following:
+
+  $ `ssh -L localhost:<local port>:<container_name>:<container_port> -p 3000 <username>@cs561.cs.umass.edu`
+  
+  For example, run
+
+   $ `ssh -L localhost:3000:<container_name>:<container_port> -p 3000 <username>@cs561.cs.umass.edu`
+
+
+  Then open the browser of your choice, and go to `localhost:<local port>` and start you challenge!
+
+value: 100
+category: Web
+flag: CTF_SDaT{Fl@g_K@i}
+
+# administrative
+container_name: 
